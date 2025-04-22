@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #000000, #333333);
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;  /* Coloca os elementos na coluna */
+    align-items: center;     /* Alinha no centro horizontal */
+    justify-content: center; /* Alinha no centro vertical */
+}
+
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    font-size: 1.2em;
+    padding: 8px;
+    border: 2px solid #444;
+    border-radius: 4px;
+    background-color: #222;
+    color: #fff;
+    margin-bottom: 15px;
+    width: 250px;
+
+}
+
+input[type="text"] {
+    font-size: 1.2em;
+    padding: 8px;
+    border: 2px solid #444;
+    border-radius: 4px;
+    background-color: #222;
+    color: #fff;
+    margin-bottom: 15px;
+    width: 250px;
+}
+
+/* Adiciona uma margem abaixo do campo CPF para espaçamento */
+input[type="text"]#cpf {
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: #555;
+}
+
+#resultado {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
