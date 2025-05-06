@@ -72,3 +72,31 @@ nav a[href="exercicio05.html"] {
 nav a[href="exercicio05.html"]:hover {
     background-color: #c0392b;
 }
+
+nav a[href="exercicio06.html"] {
+    background-color: #f1c40f;
+}
+nav a[href="exercicio06.html"]:hover {
+    background-color: #f39c12;
+}
+
+nav a[href="exercicio07.html"] {
+    background-color: #2ecc71;
+}
+nav a[href="exercicio07.html"]:hover {
+    background-color: #27ae60;
+}
+
+nav a[href="exercicio08.html"] {
+    background-color: #ff6b6b;
+}
+nav a[href="exercicio08.html"]:hover {
+    background-color: #e55050;
+}
+
+nav a[href="exercicio09.html"] {
+    background-color: #1bcbd8;
+}
+nav a[href="exercicio09.html"]:hover {
+    background-color: #3587a5;
+}
